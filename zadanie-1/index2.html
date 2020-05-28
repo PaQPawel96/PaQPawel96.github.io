@@ -14,17 +14,17 @@
     <label for="mail">E-mail:</label>
     <input type="text" name="mail" id="mail"><br>
     <label for="phone">Telefon:</label>
-    <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" disabled><br>
+    <input type="tel" name="phone" id="phone"><br>
     <select name="city">
         <option value="Kraków">Kraków</option>
         <option value="Gdańsk">Gdańsk</option>
         <option value="Warszawa" selected>Warszawa</option>
         </select><br>
-    <label for="sex">Płeć:</label>
-    <input type="radio" name="choise">Mężczyzna 
-    <input type="radio" name="choise">Kobieta
-<br>
-    <input type="checkbox" name="agreement">Wyrażam zgodę na przetwarzanie danych. <br>
+    <p>Płeć:
+    <input type="radio" name="male" id="male"><label for="male">Mężczyzna</label> 
+    <input type="radio" name="female" id="female"><label for="female">Kobieta</label></p>
+
+    <input type="checkbox" name="agreement"><label>Wyrażam zgodę na przetwarzanie danych.</label><br>
     
     <!--<input type="radio" name="choise">Tak<br>
     <input type="radio" name="choise">Nie<br>
@@ -34,6 +34,6 @@
 
     <input type="submit" value="Wyślij formularz" >
     
-    <textarea name="message" maxlength=""></textarea>
+    <textarea name="message" maxlength="999"></textarea>
 </body>
 </html>
