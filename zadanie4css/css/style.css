@@ -1,0 +1,124 @@
+body {
+    height: 600px;
+    text-align: center;
+    justify-content: center;
+}
+@media (min-width: 992px) {
+    .header {
+        height: 10%;
+        background-color: tomato;
+    }
+
+    .header > * {
+    flex: 1 100%;
+    }
+
+    .box{
+        display: flex;
+        height: 80%;
+    }
+
+    .aleft {
+        flex-basis: 20%;
+        background-color: teal;
+    }
+    .main {
+        flex-basis: 60%;
+        
+        background-color: blue;
+    }
+
+    .aright {
+        flex-basis: 20%;
+        
+        background-color: pink;
+    }
+    .footer {
+        height: 10%;
+        background-color: blueviolet;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .header {
+        height: 5%;
+        background-color: tomato;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 80%;
+    }
+    .aleft {
+        order: 3;
+        height: 50%;
+        flex-basis: 100%;
+        flex-wrap: wrap;
+        background-color: teal;
+       
+    }
+    .main {
+        order: 1;
+        height: 50%;
+        flex-basis: 75%;
+        background-color: blue;
+    }
+
+    .aright {
+        order: 2;
+        height: 50%;
+        flex-basis: 25%;
+        background-color: pink;
+    }
+
+    
+
+    .footer {
+        height: 5%;
+        background-color: blueviolet;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .header {
+        height: 5%;
+        background-color: tomato;
+    }
+
+    .box {
+        height: 80%; 
+        display: flex;
+        flex-wrap: wrap;
+     }
+
+    .aleft {
+        order: 2;
+        height: 34%;
+        width: 100%;
+        background-color: teal;
+    }
+
+    .main {
+      order: 1;
+      height: 33%;
+      width: 100%;
+        background-color: blue;
+    }
+
+    .aright {
+        order: 3;
+        height: 33%;
+        width: 100%;
+        background-color: pink;
+    }
+
+    .footer {
+        height: 5%;
+        background-color: blueviolet;
+    }
+
+}
