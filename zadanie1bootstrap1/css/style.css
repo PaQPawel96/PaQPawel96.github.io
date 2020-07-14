@@ -1,0 +1,41 @@
+.hr-line {
+    width:25%; 
+    margin-left:37.5% !important; 
+    margin-right:37.5% !important;
+}
+
+.container{
+    color: orange;
+}
+h2{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+.circle-icon {
+    background: #ffc0c0;
+    width: 100%;
+    height: 100%;
+    border-radius: 90%;
+    text-align: center;
+    line-height: 50%;
+    vertical-align: middle;
+    padding: 30px;
+} */
+
+/* .circle-item {
+    position: relative;
+    left: -10px;
+} */
+
+.dot {
+    position: relative;
+    height: 30%;
+    width: 15%;
+    background-color: #bbb;
+    border-radius: 90%;
+    display: inline-block;
+
+
+  }
